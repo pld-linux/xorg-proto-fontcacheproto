@@ -5,7 +5,7 @@ Version:	0.1.2
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/fontcacheproto-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontcacheproto-%{version}.tar.bz2
 # Source0-md5:	116997d63cf6f65b75593ff5ae7afecb
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
