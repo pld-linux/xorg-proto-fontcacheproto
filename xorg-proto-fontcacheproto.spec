@@ -32,7 +32,7 @@ Fontcache protocol and ancillary headers.
 Nag³ówki protoko³u Fontcache i pomocnicze.
 
 %prep
-%setup -q -n fontcacheproto-X11R7.0-%{version}
+%setup -q -n fontcacheproto-%{version}
 
 %build
 %{__aclocal}
