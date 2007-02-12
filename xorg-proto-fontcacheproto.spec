@@ -1,5 +1,5 @@
 Summary:	Fontcache protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Fontcache i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Fontcache i pomocnicze
 Name:		xorg-proto-fontcacheproto
 Version:	0.1.2
 Release:	1
@@ -21,7 +21,7 @@ Nagłówki protokołu Fontcache i pomocnicze.
 
 %package devel
 Summary:	Fontcache protocol and ancillary headers
-Summary(pl.UTF-8):   Nagłówki protokołu Fontcache i pomocnicze
+Summary(pl.UTF-8):	Nagłówki protokołu Fontcache i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
