@@ -1,5 +1,5 @@
-Summary:	Fontcache protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Fontcache i pomocnicze
+Summary:	Fontcache extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Fontcache
 Name:		xorg-proto-fontcacheproto
 Version:	0.1.3
 Release:	1
@@ -10,26 +10,26 @@ Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontcacheproto-%{
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	xorg-util-util-macros
+BuildRequires:	xorg-util-util-macros >= 1.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Fontcache protocol and ancillary headers.
+Fontcache extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Fontcache i pomocnicze.
+Nagłówki rozszerzenia Fontcache.
 
 %package devel
-Summary:	Fontcache protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Fontcache i pomocnicze
+Summary:	Fontcache extension headers
+Summary(pl.UTF-8):	Nagłówki rozszerzenia Fontcache
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
-Fontcache protocol and ancillary headers.
+Fontcache extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Fontcache i pomocnicze.
+Nagłówki rozszerzenia Fontcache.
 
 %prep
 %setup -q -n fontcacheproto-%{version}
@@ -54,6 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%doc COPYING ChangeLog
-%{_includedir}/X11/extensions/*.h
+%doc COPYING ChangeLog README
+%{_includedir}/X11/extensions/fontcach*.h
 %{_pkgconfigdir}/fontcacheproto.pc
