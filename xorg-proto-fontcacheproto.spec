@@ -1,12 +1,12 @@
 Summary:	Fontcache protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu Fontcache i pomocnicze
 Name:		xorg-proto-fontcacheproto
-Version:	0.1.2
-Release:	2
+Version:	0.1.3
+Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/fontcacheproto-%{version}.tar.bz2
-# Source0-md5:	60df6b625074a9790e28543dcea71651
+# Source0-md5:	a8a50e5e995bfacb0359575faf7f6906
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
